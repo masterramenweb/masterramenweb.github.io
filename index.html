@@ -1,0 +1,418 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Master Ramen · Ramen japonés auténtico en Palma</title>
+<meta name="description" content="Master Ramen en Camí de la Vileta, Palma. Ramen japonés auténtico, gyozas, bao y postres. Ambiente anime. Reservas en TheFork.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@400;700;900&family=Rajdhani:wght@500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topnav">
+  <div class="wrap">
+    <a class="brand" href="#inicio">
+      <span class="brand-mark">拉麺</span>
+      <span class="brand-text"><strong>MASTER RAMEN</strong><small>ラーメン専門店 · Palma</small></span>
+    </a>
+    <nav class="navlinks">
+      <a href="#concepto">Nosotros</a>
+      <a href="#carta">Carta</a>
+      <a href="#galeria">Galería</a>
+      <a href="#opiniones">Reviews</a>
+      <a href="#locales">Locales</a>
+      <a href="#visita">Visítanos</a>
+      <a href="https://www.thefork.es/restaurante/master-ramen-cami-de-la-vileta-r854289" target="_blank" rel="noopener" class="nav-cta">Reservar</a>
+    </nav>
+    <button class="nav-toggle" id="navToggle">&#9776;</button>
+  </div>
+  <nav class="mobile-nav" id="mobileNav">
+    <a href="#concepto">Nosotros</a>
+    <a href="#carta">Carta</a>
+    <a href="#galeria">Galería</a>
+    <a href="#opiniones">Reviews</a>
+    <a href="#visita">Visítanos</a>
+    <a href="carta.html">Carta completa</a>
+    <a href="https://www.thefork.es/restaurante/master-ramen-cami-de-la-vileta-r854289" target="_blank" rel="noopener">Reservar en TheFork</a>
+  </nav>
+</header>
+
+<section class="hero" id="inicio">
+  <div class="hero-bg"></div>
+  <div class="hero-speed"></div>
+  <!-- manga corners -->
+  <div class="hero-manga-corner tl"></div>
+  <div class="hero-manga-corner tr"></div>
+  <div class="hero-manga-corner bl"></div>
+  <div class="hero-manga-corner br"></div>
+  <!-- anime ramen SVG decoration -->
+  <svg class="anime-deco deco-br" viewBox="0 0 160 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <ellipse cx="80" cy="115" rx="68" ry="22" fill="none" stroke="var(--cyan)" stroke-width="3"/>
+    <path d="M12 115 Q20 72 80 68 Q140 72 148 115" fill="rgba(232,93,4,.12)" stroke="var(--violet)" stroke-width="2.5"/>
+    <ellipse cx="80" cy="68" rx="68" ry="14" fill="rgba(255,183,3,.15)" stroke="var(--cyan)" stroke-width="2"/>
+    <!-- noodles -->
+    <path d="M35 90 Q50 82 65 90 Q80 98 95 90 Q110 82 125 90" fill="none" stroke="var(--cream)" stroke-width="2.5" opacity=".7"/>
+    <path d="M30 98 Q48 88 66 98 Q84 108 102 98 Q118 88 130 98" fill="none" stroke="var(--cream)" stroke-width="2" opacity=".5"/>
+    <!-- egg -->
+    <ellipse cx="58" cy="80" rx="12" ry="10" fill="rgba(255,214,0,.25)" stroke="var(--cyan)" stroke-width="1.5"/>
+    <!-- nori -->
+    <rect x="102" y="74" width="14" height="18" rx="2" fill="rgba(20,20,40,.6)" stroke="var(--violet)" stroke-width="1.5"/>
+    <!-- steam -->
+    <path class="steam-line" d="M55 60 Q58 52 55 44" fill="none" stroke="var(--cream)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+    <path class="steam-line" d="M80 58 Q83 48 80 38" fill="none" stroke="var(--cream)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+    <path class="steam-line" d="M105 60 Q108 52 105 44" fill="none" stroke="var(--cream)" stroke-width="2" stroke-linecap="round" opacity=".5"/>
+    <!-- chopsticks -->
+    <line x1="95" y1="30" x2="130" y2="75" stroke="var(--violet-bright)" stroke-width="2.5" stroke-linecap="round"/>
+    <line x1="105" y1="28" x2="140" y2="73" stroke="var(--violet-bright)" stroke-width="2.5" stroke-linecap="round"/>
+  </svg>
+  <div class="wrap hero-inner">
+    <div class="hero-tag">ラーメン専門店 · Sa Vileta · Palma de Mallorca</div>
+    <p class="hero-jp">拉麺 &nbsp;·&nbsp; ラーメン &nbsp;·&nbsp; 日本料理</p>
+    <h1><span class="l1">MASTER</span><span class="l2">RAMEN</span></h1>
+    <p class="hero-lead">Ramen japonés auténtico en Sa Vileta. Caldos concentrados, fideos elaborados y un ambiente completamente inspirado en el anime y manga japonés.</p>
+    <div class="hero-cta">
+      <a class="btn btn-primary" href="carta.html">Ver carta completa</a>
+      <a class="btn btn-ghost" href="https://www.thefork.es/restaurante/master-ramen-cami-de-la-vileta-r854289" target="_blank" rel="noopener">Reservar en TheFork</a>
+    </div>
+  </div>
+  <div class="hero-score">
+    <div class="num">9.3</div>
+    <div class="stars">★★★★★</div>
+    <div class="lbl">TheFork · 104 reseñas</div>
+    <div class="sub">Precio medio ~22€</div>
+  </div>
+</section>
+
+<div class="marquee">
+  <div class="marquee-track">
+    <span class="violet">Ramen Auténtico</span><span class="cyan">Gyozas</span><span class="pink">Bao</span><span class="violet">Caldo Concentrado</span><span class="cyan">Mazesoba</span><span class="pink">Kara-age</span><span class="violet">Mochi & Dorayaki</span><span class="cyan">Sake</span><span class="pink">Anime & Manga</span>
+    <span class="violet">Ramen Auténtico</span><span class="cyan">Gyozas</span><span class="pink">Bao</span><span class="violet">Caldo Concentrado</span><span class="cyan">Mazesoba</span><span class="pink">Kara-age</span><span class="violet">Mochi & Dorayaki</span><span class="cyan">Sake</span><span class="pink">Anime & Manga</span>
+  </div>
+</div>
+
+<section id="concepto">
+  <div class="wrap">
+    <div class="concepto-grid">
+      <div class="concepto-media">
+        <img src="https://cdn.thefork.com/tf-lab/image/upload/w_640,c_fill,q_auto,f_auto/customer/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/9d4dbf02-974e-45de-90a5-dbd55f08c142.jpg" alt="Interior de Master Ramen">
+        <span class="concepto-jp-tag">ラーメン</span>
+      </div>
+      <div class="concepto-text" style="position:relative">
+        <svg class="ramen-float" viewBox="0 0 200 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <ellipse cx="100" cy="148" rx="88" ry="28" fill="none" stroke="var(--cyan)" stroke-width="3"/>
+          <path d="M12 148 Q22 88 100 82 Q178 88 188 148" fill="rgba(232,93,4,.08)" stroke="var(--violet)" stroke-width="2.5"/>
+          <ellipse cx="100" cy="82" rx="88" ry="18" fill="rgba(255,183,3,.1)" stroke="var(--cyan)" stroke-width="2"/>
+          <path d="M40 115 Q60 103 80 115 Q100 127 120 115 Q140 103 160 115" fill="none" stroke="var(--cream)" stroke-width="3" opacity=".6"/>
+          <ellipse cx="76" cy="100" rx="15" ry="12" fill="rgba(255,214,0,.2)" stroke="var(--cyan)" stroke-width="2"/>
+          <path class="steam-line" d="M68 72 Q72 60 68 48" fill="none" stroke="var(--cyan)" stroke-width="2.5" stroke-linecap="round"/>
+          <path class="steam-line" d="M100 68 Q104 54 100 40" fill="none" stroke="var(--cyan)" stroke-width="2.5" stroke-linecap="round"/>
+          <line x1="118" y1="36" x2="165" y2="95" stroke="var(--violet-bright)" stroke-width="3" stroke-linecap="round"/>
+          <line x1="130" y1="32" x2="177" y2="91" stroke="var(--violet-bright)" stroke-width="3" stroke-linecap="round"/>
+        </svg>
+        <div class="eyebrow">Quiénes somos</div>
+        <h2 class="title">Ramen auténtico,<br><span class="grad">ambiente único</span></h2>
+        <p class="lead">Nuestro ramen está elaborado con caldos concentrados cocinados durante horas, con toppings auténticos: bambú, pak choi, naruto, nori, brotes de soja y huevo cocido marinado. Cada bol es un viaje directo a Japón.</p>
+        <p>El local es tan especial como la comida: cuadros y obra gráfica de anime y manga decoran cada rincón, creando una atmósfera única en Palma que combina la tradición del ramen con la energía de la cultura pop japonesa. Con terraza y apto para familias.</p>
+        <p>Abrimos a mediodía y por la noche, todos los días de la semana. Se puede reservar en TheFork.</p>
+        <div class="features">
+          <div class="feat"><span class="feat-icon">🍜</span><div><h4>Caldo concentrado</h4><p>Horas de cocción para sabor profundo y auténtico</p></div></div>
+          <div class="feat"><span class="feat-icon">🎌</span><div><h4>Ambiente anime</h4><p>Arte de manga y anime en cada rincón del local</p></div></div>
+          <div class="feat"><span class="feat-icon">🌿</span><div><h4>Opciones veganas</h4><p>Ramen vegano y veggie sides para todos</p></div></div>
+          <div class="feat"><span class="feat-icon">🌾</span><div><h4>Sin gluten</h4><p>Opciones disponibles. Consúltanos al reservar</p></div></div>
+        </div>
+        <div class="local-strip">
+          <div class="local-strip-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_400,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/e04fdedb-f6f2-45f1-8ab0-e7311e720153.jpg" alt="Arte anime" loading="lazy"></div>
+          <div class="local-strip-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_400,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/98a40e7b-952a-486c-8d2e-544879490f0b.jpg" alt="Interior" loading="lazy"></div>
+          <div class="local-strip-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_400,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/0d96259b-2f69-4a01-9933-ec535cb2e85e.jpg" alt="Ambiente" loading="lazy"></div>
+          <div class="local-strip-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_400,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/bb79baf3-1306-4102-93a4-8726596d9a26.jpg" alt="Decoración" loading="lazy"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="carta" class="dark-section" style="position:relative;overflow:hidden">
+  <!-- anime chibi cook illustration -->
+  <svg style="position:absolute;right:1.5rem;bottom:0;width:140px;opacity:.22;pointer-events:none" viewBox="0 0 140 200" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- chef hat -->
+    <ellipse cx="70" cy="38" rx="28" ry="10" fill="var(--cream)" opacity=".9"/>
+    <rect x="50" y="22" width="40" height="20" rx="4" fill="var(--cream)" opacity=".9"/>
+    <ellipse cx="70" cy="22" rx="20" ry="8" fill="white" opacity=".95"/>
+    <!-- head -->
+    <ellipse cx="70" cy="62" rx="22" ry="22" fill="var(--violet-bright)" opacity=".8"/>
+    <!-- eyes -->
+    <ellipse cx="62" cy="60" rx="5" ry="6" fill="#0a0a0a"/>
+    <ellipse cx="78" cy="60" rx="5" ry="6" fill="#0a0a0a"/>
+    <ellipse cx="63" cy="58" rx="2" ry="2" fill="white"/>
+    <ellipse cx="79" cy="58" rx="2" ry="2" fill="white"/>
+    <!-- smile -->
+    <path d="M62 70 Q70 76 78 70" fill="none" stroke="#0a0a0a" stroke-width="2" stroke-linecap="round"/>
+    <!-- blush -->
+    <ellipse cx="57" cy="66" rx="6" ry="4" fill="var(--pink)" opacity=".6"/>
+    <ellipse cx="83" cy="66" rx="6" ry="4" fill="var(--pink)" opacity=".6"/>
+    <!-- body/uniform -->
+    <rect x="50" y="84" width="40" height="55" rx="8" fill="white" opacity=".85"/>
+    <!-- buttons -->
+    <circle cx="70" cy="95" r="2.5" fill="var(--violet)"/>
+    <circle cx="70" cy="107" r="2.5" fill="var(--violet)"/>
+    <circle cx="70" cy="119" r="2.5" fill="var(--violet)"/>
+    <!-- arms -->
+    <rect x="22" y="86" width="28" height="14" rx="7" fill="white" opacity=".85"/>
+    <rect x="90" y="86" width="28" height="14" rx="7" fill="white" opacity=".85"/>
+    <!-- bowl in hand -->
+    <ellipse cx="28" cy="92" rx="14" ry="10" fill="var(--cyan)" opacity=".7"/>
+    <ellipse cx="28" cy="88" rx="14" ry="5" fill="var(--cream)" opacity=".8"/>
+    <!-- steam from bowl -->
+    <path class="steam-line" d="M22 80 Q25 72 22 64" fill="none" stroke="var(--cream)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    <path class="steam-line" d="M34 78 Q37 68 34 58" fill="none" stroke="var(--cream)" stroke-width="2" stroke-linecap="round" opacity=".7"/>
+    <!-- legs -->
+    <rect x="55" y="139" width="14" height="40" rx="6" fill="var(--violet-deep)" opacity=".8"/>
+    <rect x="71" y="139" width="14" height="40" rx="6" fill="var(--violet-deep)" opacity=".8"/>
+    <!-- shoes -->
+    <ellipse cx="62" cy="180" rx="10" ry="6" fill="#0a0a0a" opacity=".9"/>
+    <ellipse cx="78" cy="180" rx="10" ry="6" fill="#0a0a0a" opacity=".9"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Lo más pedido</div>
+    <h2 class="title">Nuestro <span class="grad">ramen</span></h2>
+    <p class="subtitle">Una muestra de los boles más populares. Más de 20 tipos de ramen, combos, mazesoba, bao, gyozas y postres japoneses.</p>
+    <div class="ramen-grid">
+      <div class="ramen-card">
+        <img src="https://cdn.thefork.com/tf-lab/image/upload/w_640,c_fill,q_auto,f_auto/customer/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/914e4f74-317f-4199-a05e-020940488eec.jpg" alt="Chashu Ramen">
+        <div class="ramen-card-body"><h3>Chashu Ramen</h3><p>Caldo concentrado de cerdo con panceta, bambú, pak choi, nori, brotes de soja y huevo marinado.</p><div class="ramen-card-price">13,80€</div></div>
+      </div>
+      <div class="ramen-card">
+        <img src="https://cdn.thefork.com/tf-lab/image/upload/w_640,c_fill,q_auto,f_auto/customer/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/7fad22d4-cb1f-407d-8de7-fee44f67430e.jpg" alt="Gyozas">
+        <div class="ramen-card-body"><h3>Gyozas</h3><p>A la plancha de pollo o verduras. Con salsa okonomi, mayonesa picante o mala.</p><div class="ramen-card-price">Desde 6,30€</div></div>
+      </div>
+      <div class="ramen-card">
+        <img src="https://cdn.thefork.com/tf-lab/image/upload/w_640,c_fill,q_auto,f_auto/customer/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/1a503387-fdd0-4793-8bfc-2a30722ad46d.jpg" alt="Teriyaki Chicken Set">
+        <div class="ramen-card-body"><h3>Teriyaki Chicken Set</h3><p>Pollo teriyaki con ensalada, arroz y sopa de miso. El combo más completo.</p><div class="ramen-card-price">13,30€</div></div>
+      </div>
+    </div>
+    <div style="margin-top:2.2rem;text-align:center"><a class="btn btn-primary" href="carta.html">Ver carta completa →</a></div>
+  </div>
+</section>
+
+<div class="pullquote">
+  <div class="wrap" style="padding-top:4.5rem;padding-bottom:4.5rem;position:relative">
+    <!-- big anime ramen bowl left -->
+    <svg style="position:absolute;left:-20px;top:50%;transform:translateY(-50%);width:180px;opacity:.18;pointer-events:none" viewBox="0 0 180 180" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <ellipse cx="90" cy="135" rx="80" ry="26" fill="none" stroke="var(--cyan)" stroke-width="3"/>
+      <path d="M10 135 Q18 78 90 72 Q162 78 170 135" fill="rgba(232,93,4,.15)" stroke="var(--violet-bright)" stroke-width="2.5"/>
+      <ellipse cx="90" cy="72" rx="80" ry="16" fill="rgba(255,183,3,.12)" stroke="var(--cyan)" stroke-width="2"/>
+      <path d="M30 105 Q50 93 70 105 Q90 117 110 105 Q130 93 150 105" fill="none" stroke="white" stroke-width="3" opacity=".6"/>
+      <path d="M26 118 Q50 104 74 118 Q98 132 122 118 Q144 104 162 118" fill="none" stroke="white" stroke-width="2.5" opacity=".4"/>
+      <ellipse cx="68" cy="89" rx="14" ry="11" fill="rgba(255,214,0,.25)" stroke="var(--cyan)" stroke-width="2"/>
+      <rect x="114" y="82" width="16" height="20" rx="2" fill="rgba(10,10,20,.6)" stroke="var(--violet-bright)" stroke-width="2"/>
+      <path class="steam-line" d="M60 60 Q64 48 60 36" fill="none" stroke="var(--cyan)" stroke-width="2.5" stroke-linecap="round"/>
+      <path class="steam-line" d="M90 56 Q94 42 90 28" fill="none" stroke="var(--violet-bright)" stroke-width="2.5" stroke-linecap="round"/>
+      <path class="steam-line" d="M120 60 Q124 48 120 36" fill="none" stroke="var(--cyan)" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="108" y1="28" x2="148" y2="80" stroke="var(--violet-bright)" stroke-width="3" stroke-linecap="round"/>
+      <line x1="120" y1="24" x2="160" y2="76" stroke="var(--cyan)" stroke-width="3" stroke-linecap="round"/>
+    </svg>
+    <!-- kanji sticker right -->
+    <svg style="position:absolute;right:2rem;top:50%;transform:translateY(-50%);width:70px;opacity:.2;pointer-events:none" viewBox="0 0 70 160" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <rect x="5" y="5" width="60" height="150" rx="8" fill="none" stroke="var(--cyan)" stroke-width="2"/>
+      <text x="35" y="55" text-anchor="middle" font-family="Noto Sans JP, serif" font-size="38" fill="var(--violet-bright)" font-weight="900">拉</text>
+      <text x="35" y="105" text-anchor="middle" font-family="Noto Sans JP, serif" font-size="38" fill="var(--cyan)" font-weight="900">麺</text>
+      <text x="35" y="148" text-anchor="middle" font-family="Noto Sans JP, serif" font-size="22" fill="var(--pink)" font-weight="700">道</text>
+    </svg>
+    <!-- chopsticks decoration -->
+    <svg style="position:absolute;top:1.5rem;right:8rem;width:50px;opacity:.2;transform:rotate(-30deg);pointer-events:none" viewBox="0 0 60 120" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+      <line x1="12" y1="10" x2="22" y2="115" stroke="var(--violet-bright)" stroke-width="4" stroke-linecap="round"/>
+      <line x1="38" y1="10" x2="48" y2="115" stroke="var(--cyan)" stroke-width="4" stroke-linecap="round"/>
+    </svg>
+    <blockquote>"El ramen es de otro mundo. Tras viajar recientemente a Japón, puedo decir que Master Ramen en Sa Vileta se siente muy auténtico."</blockquote>
+    <cite>Cliente · <span>Google Reviews</span></cite>
+  </div>
+</div>
+
+<section id="galeria">
+  <div class="wrap">
+    <div class="eyebrow">El local y la cocina</div>
+    <h2 class="title"><span class="grad">Galería</span></h2>
+    <p class="subtitle">Un vistazo al interior con decoración anime y manga, y algunos de nuestros platos.</p>
+    <div class="gallery" id="gallery">
+      <div class="g-item big"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_900,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/8f6d0556-555d-4276-a74c-91802f7d9a10.jpg" alt="Interior" loading="lazy"></div>
+      <div class="g-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_600,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/0d96259b-2f69-4a01-9933-ec535cb2e85e.jpg" alt="Ramen" loading="lazy"></div>
+      <div class="g-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_600,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/98a40e7b-952a-486c-8d2e-544879490f0b.jpg" alt="Bol" loading="lazy"></div>
+      <div class="g-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_600,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/e04fdedb-f6f2-45f1-8ab0-e7311e720153.jpg" alt="Arte anime" loading="lazy"></div>
+      <div class="g-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_600,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/158347ae-8af1-4ac5-a8cd-247e37723f23.jpg" alt="Plato" loading="lazy"></div>
+      <div class="g-item"><img src="https://cdn.thefork.com/tf-lab/image/upload/w_600,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/bb79baf3-1306-4102-93a4-8726596d9a26.jpg" alt="Local" loading="lazy"></div>
+    </div>
+  </div>
+</section>
+
+<section id="opiniones" class="dark-section" style="position:relative;overflow:hidden">
+  <!-- anime star burst decoration -->
+  <svg style="position:absolute;left:1rem;top:2rem;width:100px;opacity:.15;pointer-events:none" viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <!-- manga speed star -->
+    <polygon points="50,5 61,35 95,35 68,57 79,91 50,70 21,91 32,57 5,35 39,35" fill="none" stroke="var(--cyan)" stroke-width="2.5"/>
+    <polygon points="50,18 58,38 80,38 63,51 70,73 50,60 30,73 37,51 20,38 42,38" fill="rgba(255,183,3,.15)" stroke="var(--violet-bright)" stroke-width="1.5"/>
+    <text x="50" y="56" text-anchor="middle" font-family="Noto Sans JP, serif" font-size="16" fill="var(--cyan)" font-weight="900">旨</text>
+  </svg>
+  <!-- small ramen bowl top right -->
+  <svg style="position:absolute;right:1rem;top:1.5rem;width:90px;opacity:.18;pointer-events:none;transform:rotate(15deg)" viewBox="0 0 100 90" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <ellipse cx="50" cy="75" rx="44" ry="14" fill="none" stroke="var(--violet-bright)" stroke-width="2.5"/>
+    <path d="M6 75 Q12 42 50 38 Q88 42 94 75" fill="rgba(232,93,4,.12)" stroke="var(--cyan)" stroke-width="2"/>
+    <ellipse cx="50" cy="38" rx="44" ry="9" fill="rgba(255,183,3,.1)" stroke="var(--violet-bright)" stroke-width="1.5"/>
+    <path d="M20 58 Q35 50 50 58 Q65 66 80 58" fill="none" stroke="var(--cream)" stroke-width="2.5" opacity=".6"/>
+    <path class="steam-line" d="M34 28 Q37 20 34 12" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linecap="round"/>
+    <path class="steam-line" d="M50 25 Q53 16 50 7" fill="none" stroke="var(--violet-bright)" stroke-width="2" stroke-linecap="round"/>
+    <path class="steam-line" d="M66 28 Q69 20 66 12" fill="none" stroke="var(--cyan)" stroke-width="2" stroke-linecap="round"/>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Lo que dicen</div>
+    <h2 class="title">Reviews</h2>
+    <div class="reviews-row" style="margin-top:2.5rem">
+      <div class="review-score-block">
+        <div class="num">9.3</div>
+        <div class="stars">★★★★★</div>
+        <div class="lbl">TheFork · 104 opiniones</div>
+        <div class="sub-scores">
+          <div class="sub-score"><span>Comida</span><span>9.4</span></div>
+          <div class="sub-score"><span>Servicio</span><span>9.5</span></div>
+          <div class="sub-score"><span>Ambiente</span><span>9.1</span></div>
+        </div>
+      </div>
+      <div class="reviews-grid">
+        <div class="review-card"><div class="stars">★★★★★</div><p>"Espectacular el local y la comida. El ramen es de otro mundo. Volveremos sin duda."</p><div class="review-by">Gema T. · TheFork</div></div>
+        <div class="review-card"><div class="stars">★★★★★</div><p>"El ambiente completamente inspirado en Japón, las linternas de colores, los detalles... Todo hace que la experiencia sea inmersiva y genuina."</p><div class="review-by">Cliente · Google</div></div>
+        <div class="review-card"><div class="stars">★★★★★</div><p>"Magnífico restaurante, con atención exquisita del personal y platos deliciosos. Los postres, geniales. Precio más que aceptable."</p><div class="review-by">Rosa Maria C. · TheFork</div></div>
+        <div class="review-card"><div class="stars">★★★★★</div><p>"Es difícil tener tanta cantidad, calidad de producto y sabor por un precio tan ajustado. El caldo del ramen, muy bueno."</p><div class="review-by">Emanuele B. · TheFork</div></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="locales" style="overflow:hidden;position:relative">
+  <svg style="position:absolute;right:0;top:0;bottom:0;width:120px;opacity:.06;pointer-events:none" viewBox="0 0 120 400" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="none" aria-hidden="true">
+    <line x1="120" y1="0" x2="0" y2="200" stroke="var(--cyan)" stroke-width="1.5"/>
+    <line x1="120" y1="0" x2="0" y2="280" stroke="var(--violet-bright)" stroke-width="1"/>
+    <line x1="120" y1="0" x2="0" y2="150" stroke="var(--pink)" stroke-width="1"/>
+    <line x1="120" y1="0" x2="0" y2="320" stroke="var(--cyan)" stroke-width="1.5"/>
+    <line x1="120" y1="0" x2="0" y2="100" stroke="var(--violet-bright)" stroke-width="1"/>
+    <line x1="120" y1="0" x2="0" y2="380" stroke="var(--pink)" stroke-width="1"/>
+    <line x1="120" y1="0" x2="0" y2="60" stroke="var(--cyan)" stroke-width="1.5"/>
+  </svg>
+  <svg style="position:absolute;left:1rem;bottom:2rem;width:80px;opacity:.2;pointer-events:none" viewBox="0 0 80 100" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+    <path d="M40 95 Q40 95 10 55 A32 32 0 1 1 70 55 Q40 95 40 95Z" fill="rgba(232,93,4,.2)" stroke="var(--violet-bright)" stroke-width="2.5"/>
+    <circle cx="40" cy="42" r="16" fill="rgba(255,183,3,.15)" stroke="var(--cyan)" stroke-width="2"/>
+    <text x="40" y="50" text-anchor="middle" font-family="Noto Sans JP, serif" font-size="20" fill="var(--violet-bright)" font-weight="900">店</text>
+  </svg>
+  <div class="wrap">
+    <div class="eyebrow">Encuéntranos</div>
+    <h2 class="title">3 locales en <span class="grad">Mallorca</span></h2>
+    <p class="subtitle">Tres ramen-ya repartidos por la isla. Misma calidad, mismo espíritu, tres rincones distintos.</p>
+    <div class="locales-grid">
+
+      <div class="locale-card locale-current">
+        <div class="locale-badge">Este local</div>
+        <div class="locale-num">01</div>
+        <h3 class="locale-name">Sa Vileta</h3>
+        <p class="locale-area">Ponent · Palma</p>
+        <div class="locale-info">
+          <div class="locale-row"><span class="locale-icon">📍</span><span>Camí de la Vileta, 47, bajo<br>07011 Palma</span></div>
+          <div class="locale-row"><span class="locale-icon">🕒</span><span>12:30–16:30 · 19:30–00:00<br>Todos los días</span></div>
+          <div class="locale-row"><span class="locale-icon">🔗</span><span><a href="https://www.thefork.es/restaurante/master-ramen-cami-de-la-vileta-r854289" target="_blank" rel="noopener">Reservar en TheFork →</a></span></div>
+        </div>
+      </div>
+
+      <div class="locale-card">
+        <div class="locale-num">02</div>
+        <h3 class="locale-name">Aragó</h3>
+        <p class="locale-area">Llevant · Palma</p>
+        <div class="locale-info">
+          <div class="locale-row"><span class="locale-icon">📍</span><span>C/ Aragó, 271<br>07009 Palma, Illes Balears</span></div>
+          <div class="locale-row"><span class="locale-icon">🕒</span><span>12:00–16:30 · 19:30–00:00<br>Todos los días</span></div>
+          <div class="locale-row"><span class="locale-icon">🗺️</span><span><a href="https://maps.google.com/?q=Calle+Aragó+271+Palma+Mallorca" target="_blank" rel="noopener">Cómo llegar →</a></span></div>
+        </div>
+      </div>
+
+      <div class="locale-card">
+        <div class="locale-num">03</div>
+        <h3 class="locale-name">Inca</h3>
+        <p class="locale-area">Inca · Mallorca</p>
+        <div class="locale-info">
+          <div class="locale-row"><span class="locale-icon">📍</span><span>Carrer des Barco, 18<br>07300 Inca, Illes Balears</span></div>
+          <div class="locale-row"><span class="locale-icon">📞</span><span><a href="tel:+34971937919">971 93 79 19</a></span></div>
+          <div class="locale-row"><span class="locale-icon">🕒</span><span>Abre a las 12:00<br>Consultar horario completo</span></div>
+          <div class="locale-row"><span class="locale-icon">🗺️</span><span><a href="https://maps.google.com/?q=Carrer+des+Barco+18+Inca+Mallorca" target="_blank" rel="noopener">Cómo llegar →</a></span></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+  <div class="wrap">
+    <div class="eyebrow">Dónde estamos</div>
+    <h2 class="title">Visítanos</h2>
+    <p class="subtitle">En Camí de la Vileta, zona Ponent, Sa Vileta. Abrimos a mediodía y por la noche todos los días.</p>
+    <div class="visita-grid">
+      <div class="info-card">
+        <h3>MASTER RAMEN</h3>
+        <div class="info-row"><div class="info-icon">📍</div><div><h4>Dirección</h4><p>Camí de la Vileta, 47, bajo<br>07011 Palma de Mallorca · Sa Vileta</p></div></div>
+        <div class="info-row"><div class="info-icon">🕒</div><div style="width:100%"><h4>Horario</h4>
+          <table class="hours" id="hoursTable">
+            <tr data-day="1"><td>Lunes</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+            <tr data-day="2"><td>Martes</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+            <tr data-day="3"><td>Miércoles</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+            <tr data-day="4"><td>Jueves</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+            <tr data-day="5"><td>Viernes</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+            <tr data-day="6"><td>Sábado</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+            <tr data-day="0"><td>Domingo</td><td>12:30–16:30 · 19:30–00:00</td></tr>
+          </table>
+        </div></div>
+        <div class="info-row"><div class="info-icon">💳</div><div><h4>Reservas</h4><p>Online en TheFork. También se acepta sin reserva según disponibilidad.</p></div></div>
+        <div class="info-row"><div class="info-icon">🌿</div><div><h4>Dietas especiales</h4><p>Opciones veganas y sin gluten disponibles.</p></div></div>
+        <a class="reserve-btn" href="https://www.thefork.es/restaurante/master-ramen-cami-de-la-vileta-r854289" target="_blank" rel="noopener">Reservar mesa en TheFork →</a>
+      </div>
+      <div class="map-frame">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3074!2d2.6244!3d39.5699!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x1297938b674daa06%3A0xbc4ee4b980e24ed7!2sMaster%20Ramen!5e0!3m2!1ses!2ses!4v1770000000000!5m2!1ses!2ses" allowfullscreen loading="lazy"></iframe>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer>
+  <div class="wrap">
+    <div style="display:flex;align-items:center">
+      <span class="footer-brand"><span class="f1">MASTER</span><span class="f2">RAMEN</span></span>
+      <span class="footer-jp">拉麺</span>
+    </div>
+    <span class="footer-note">&copy; 2026 Master Ramen · Camí de la Vileta, 47 · Palma</span>
+  </div>
+</footer>
+
+<button class="to-top" id="toTop">&#8593;</button>
+<div class="cookie-banner" id="cookieBanner">
+  <p>Usamos cookies propias y de terceros para mejorar tu experiencia. <a href="#">Más info.</a></p>
+  <div class="cookie-actions">
+    <button class="cookie-decline" id="cookieDecline">Rechazar</button>
+    <button class="cookie-accept" id="cookieAccept">Aceptar</button>
+  </div>
+</div>
+
+<script>
+var navToggle=document.getElementById('navToggle');
+var mobileNav=document.getElementById('mobileNav');
+navToggle.addEventListener('click',function(){mobileNav.classList.toggle('open');});
+document.querySelectorAll('.mobile-nav a').forEach(function(a){a.addEventListener('click',function(){mobileNav.classList.remove('open');});});
+var today=new Date().getDay();
+document.querySelectorAll('#hoursTable tr').forEach(function(row){if(parseInt(row.getAttribute('data-day'),10)===today)row.classList.add('today');});
+var toTop=document.getElementById('toTop');
+window.addEventListener('scroll',function(){if(window.scrollY>400)toTop.classList.add('show');else toTop.classList.remove('show');});
+toTop.addEventListener('click',function(){window.scrollTo({top:0,behavior:'smooth'});});
+document.querySelectorAll('.gallery .g-item').forEach(function(item){
+  item.addEventListener('click',function(e){var was=item.classList.contains('zoomed');document.querySelectorAll('.gallery .g-item.zoomed').forEach(function(i){i.classList.remove('zoomed');});if(!was)item.classList.add('zoomed');e.stopPropagation();});
+});
+document.addEventListener('click',function(){document.querySelectorAll('.gallery .g-item.zoomed').forEach(function(i){i.classList.remove('zoomed');});});
+var cb=document.getElementById('cookieBanner');
+if(!localStorage.getItem('mr_cookie')){setTimeout(function(){cb.classList.add('show');},700);}
+document.getElementById('cookieAccept').addEventListener('click',function(){localStorage.setItem('mr_cookie','accepted');cb.classList.remove('show');});
+document.getElementById('cookieDecline').addEventListener('click',function(){localStorage.setItem('mr_cookie','declined');cb.classList.remove('show');});
+</script>
+</body>
+</html>
