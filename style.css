@@ -42,7 +42,7 @@ body::before{content:"";position:fixed;inset:0;pointer-events:none;z-index:0;opa
 
 /* ===== HERO ===== */
 .hero{position:relative;min-height:100vh;display:flex;align-items:flex-end;overflow:hidden;isolation:isolate}
-.hero-bg{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(180deg,rgba(6,6,10,.1) 0%,rgba(6,6,10,.45) 40%,rgba(6,6,10,.98) 100%),url('https://lumaguide.sfo3.digitaloceanspaces.com/media/place_images/2025/07/31/google_place_ChIJG6oNZpuTlxIR5U7igLnkTrw_photo_0.jpg');background-size:cover;background-position:center}
+.hero-bg{position:absolute;inset:0;z-index:-1;background-image:linear-gradient(180deg,rgba(6,6,10,.1) 0%,rgba(6,6,10,.45) 40%,rgba(6,6,10,.98) 100%),url('https://cdn.thefork.com/tf-lab/image/upload/w_1400,c_fill,q_auto,f_auto/restaurant/86ed2fba-cd9e-4fe1-bddf-0fa37b24bb9e/8f6d0556-555d-4276-a74c-91802f7d9a10.jpg');background-size:cover;background-position:center center}
 .hero-speed{position:absolute;inset:0;z-index:-1;pointer-events:none;background:radial-gradient(ellipse at 80% 50%,rgba(232,93,4,.08) 0%,transparent 65%),radial-gradient(ellipse at 20% 50%,rgba(34,211,238,.05) 0%,transparent 55%)}
 .hero-inner{padding:5rem 0 4.5rem;width:100%;position:relative}
 .hero-tag{display:inline-flex;align-items:center;gap:.7rem;font-family:var(--font-mono);font-size:.68rem;letter-spacing:.22em;text-transform:uppercase;color:var(--cyan);margin-bottom:1.2rem;border:1px solid rgba(34,211,238,.35);border-radius:30px;padding:.3rem .9rem;background:rgba(34,211,238,.06);box-shadow:0 0 14px rgba(34,211,238,.12)}
